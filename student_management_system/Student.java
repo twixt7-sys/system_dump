@@ -1,4 +1,3 @@
-package f1;
 public class Student{
     private int studentID;
     private String firstName;

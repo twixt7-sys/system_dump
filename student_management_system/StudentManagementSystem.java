@@ -1,4 +1,3 @@
-package f1;
 public class StudentManagementSystem{
     //database(array) to store collection of students
     public int databaseSize;

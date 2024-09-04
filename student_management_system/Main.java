@@ -1,3 +1,5 @@
+
+
 import java.util.Scanner;;
 public class Main{
     static String RESET = "\u001B[0m";
