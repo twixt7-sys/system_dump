@@ -1,5 +1,3 @@
-
-
 import java.util.Scanner;;
 public class Main{
     static String RESET = "\u001B[0m";
@@ -36,9 +34,9 @@ public class Main{
         print_horizontal();
         System.out.print(YELLOW + "\t   Student Management System" + RESET);
         print_horizontal();
-        System.out.println("\n1: View Database" + "\t\t" + "3. Add Student");
-        System.out.println("2: Search Student" + "\t\t" + "4. Remove Student");
-        System.out.print("\t\t" + "    0: Exit\n");
+        System.out.println("\n1: View Database\t\t3. Add Student");
+        System.out.println("2: Search Student\t\t4. Remove Student");
+        System.out.print("\t\t    0: Exit\n");
         print_horizontal();
         int flow;
         {System.out.print("\nPlease enter a number: "); flow = sc.nextInt();}
